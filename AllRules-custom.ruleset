@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RuleSet Name="AllRules-custom" ToolsVersion="14.0">
   <Include Path="allrules.ruleset" Action="Default" />
+  <Rules AnalyzerId="CodeCracker.CSharp" RuleNamespace="CodeCracker.CSharp">
+    <Rule Id="CC0105" Action="None" />
+    <Rule Id="CC0108" Action="Warning" />
+  </Rules>
   <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
     <Rule Id="CA2151" Action="None" />
   </Rules>

@@ -20,7 +20,7 @@ namespace RoslynProofsWeb.CodeCloneMesses
             string m_Msg;
             public CCFour()
             {
-                m_Msg = "I am ccfour hear me roar."
+                m_Msg = "I am ccfour hear me roar.";
             }
             public static void SpecialMethodForCCFour()
             {
