@@ -1,0 +1,74 @@
+VS2017 RC3 is out on the wire, give it a try now ( but not on a production box please! ).
+
+I enjoy using the Roslyn based static code analyzers to pickup 'opporuntities for improvement' to my code.
+
+For those not familiar with Roslyn Analyzers I will suggest you view Falafel's blog post on the topic at https://blog.falafel.com/live-code-analysis-day-20-visual-studio-2015/ .  He gives a great overview with examples of the toolset inside VS2015.
+
+I noticed working with VS2017RC3 that there were a number of new analyzers.  I attempted to find a comprehensive list of analyzers added to or removed from the stock set that VS ships with.  Unable to find a list, I manually perused the "all rules" list, and noted the following changes below.
+
+**** Warning - This is a very nscientific and manual analysis and may change from time to time ****
+
+Microsoft.CodeAnalysis.CSharp
+[-] CS0028 Method has teh wrong signiatre to be an entry point
+[-] CS0402 An entry point cannot be generic or in a generic type
+[-] CS7022 The entry point of the program is global script code 
+[+] CS8123 Teh tuplle element name is ignored because a different name is specified by the assignent target
+
+Microsoft.CodeAnalysis.CSharp.EditorFeatures
+[+] IDE0007 Use implicit type
+[+] IDE0008 Use explicit type
+[+] IDE0009 Member access should be qualified
+[+] IDE0011 Add braces
+[+] IDE0012 Simplify Names
+[+] IDE0013 Simplify Names
+[+] IDE0014 Use framework type
+[+] IDE0015 Use framework type
+[+] IDE0016 Use 'throw' expression
+[+] IDE0017 Simplify object initialization
+[+] IDE0018 Inline variable declaration
+[+] IDE0019 Use pattern matching
+[+] IDE0020 Use pattern matching
+[+] IDE0021 Use expression body for methods
+[+] IDE0022 Use expression body for operators
+[+] IDE0023 Use expression body for operators
+[+] IDE0024 Use expression body for properties
+[+] IDE0025 Use expression body for indexers
+[+] IDE0026 Use expression body for accessors
+[+] IDE0027 Simplify colection initialization
+[+] IDE0028 Use coalesce expression
+[+] IDE0029 Use coalesce expression
+[+] IDE0030 Use null propogation
+[+] IDE1005 Delegate invocation can be simplified
+[+] IDE1006 Naming Styles
+
+Microsoft.CodeAnalysis.Features 
+[+] IDE0010 Add missing cases
+[+] IDE0032 Use explicity provided tuple name
+
+Microsoft.Rules.Managed
+[-] CA2123 Override link demands should be identical to base
+[-] CA2130: Security critical constants should be transparent
+[-] CA2131: Security critical types may not participate in type equivalence
+[-] CA2132: Default constructors must be at least as critical as base type default constructors
+[-] CA2133: Delegates must bind to methods with consistent transparency
+[-] CA2134: Methods must keep consistent transparency when overriding base methods
+[-] CA2135: Level 2 assemblies should not contain LinkDemands
+[-] CA2136: Members should not have conflicting transparency annotations
+[-] CA2137: Transparent methods must contain only verifiable IL
+[-] CA2138: Transparent methods must not call methods with the SuppressUnmanagedCodeSecurity attribute
+[-] CA2139: Transparent methods may not use the HandleProcessCorruptingExceptions attribute
+[-] CA2140: Transparent code must not reference security critical items
+[-] CA2141:Transparent methods must not satisfy LinkDemands
+[-] CA2142: Transparent code should not be protected with LinkDemands
+[-] CA2143: Transparent methods should not use security demands
+[-] CA2144: Transparent code should not load assemblies from byte arrays
+[-] CA2145: Transparent methods should not be decorated with the SuppressUnmanagedCodeSecurityAttribute
+[-] CA2146: Types must be at least as critical as their base types and interfaces
+[-] CA2147: Transparent methods may not use security asserts
+[-] CA2149: Transparent methods must not call into native code
+[-] CA2151: Fields with critical types should be security critical.
+[-] CA5122: P/Invoke declarations should not be safe-critical
+
+Microsoft.VisualStudio.Azure.Fabric.DiagnosticAnalyzers
+[+] SF1001 The name of a service type has not been consistently applied in all places
+[+] SF1002 Assembly name and serviceentry point are inconsistent across project and manifest
