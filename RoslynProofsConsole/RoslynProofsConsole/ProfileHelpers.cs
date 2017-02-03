@@ -45,6 +45,27 @@ namespace RoslynProofsConsole
             }
             return retval;
         }
+        public static bool CanContactBetter(CanProfile profile)
+        {
+            bool retval;
+            switch (profile)
+            {
+                case CanProfile.Yes:
+                case CanProfile.Caution:
+                    {
+                        retval = true;
+                        break;
+                    }
+                case CanProfile.DoNotProfile:
+                case CanProfile.None:
+                default:
+                    {
+                        retval = false;
+                        break;
+                    }
+            }
+            return retval;
+        }
 
         public bool CheckProfile(ItemWithProfile obj )
         {
@@ -68,6 +89,7 @@ namespace RoslynProofsConsole
             }
             return retval;
         }
+
         public static bool CheckProfileBetter(ItemWithProfile obj)
         {
             bool retval = false;

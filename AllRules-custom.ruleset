@@ -2,6 +2,7 @@
 <RuleSet Name="AllRules-custom" ToolsVersion="14.0">
   <Include Path="allrules.ruleset" Action="Default" />
   <Rules AnalyzerId="CodeCracker.CSharp" RuleNamespace="CodeCracker.CSharp">
+    <Rule Id="CC0001" Action="None" />
     <Rule Id="CC0105" Action="None" />
     <Rule Id="CC0108" Action="Warning" />
   </Rules>
@@ -9,6 +10,7 @@
     <Rule Id="CA2151" Action="None" />
   </Rules>
   <Rules AnalyzerId="Roslynator.CSharp.Analyzers" RuleNamespace="Roslynator.CSharp.Analyzers">
+    <Rule Id="RCS1010" Action="None" />
     <Rule Id="RCS1012" Action="Warning" />
     <Rule Id="RCS1013" Action="Warning" />
     <Rule Id="RCS1014" Action="Warning" />
