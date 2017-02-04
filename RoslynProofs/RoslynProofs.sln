@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		TR24Limited.ruleset = TR24Limited.ruleset
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EightBallWCF", "EightBallWCF\EightBallWCF.csproj", "{0698B247-83C3-4E0C-B8DC-9FC28D8BDA81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,10 @@ Global
 		{E160CFA4-A85F-4273-8959-A4C5999958E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E160CFA4-A85F-4273-8959-A4C5999958E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E160CFA4-A85F-4273-8959-A4C5999958E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0698B247-83C3-4E0C-B8DC-9FC28D8BDA81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0698B247-83C3-4E0C-B8DC-9FC28D8BDA81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0698B247-83C3-4E0C-B8DC-9FC28D8BDA81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0698B247-83C3-4E0C-B8DC-9FC28D8BDA81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -58,6 +58,7 @@
     <Rule Id="CC0090" Action="Warning" />
     <Rule Id="CC0092" Action="Warning" />
     <Rule Id="CC0095" Action="Warning" />
+    <Rule Id="CC0105" Action="None" />
     <Rule Id="CC0108" Action="Warning" />
   </Rules>
   <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
