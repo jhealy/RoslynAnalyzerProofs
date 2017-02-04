@@ -10,6 +10,7 @@
     <Rule Id="FadedToken" Action="None" />
   </Rules>
   <Rules AnalyzerId="CodeCracker.CSharp" RuleNamespace="CodeCracker.CSharp">
+    <Rule Id="CC0001" Action="None" />
     <Rule Id="CC0010" Action="Warning" />
     <Rule Id="CC0013" Action="Warning" />
     <Rule Id="CC0014" Action="Warning" />
@@ -61,7 +62,6 @@
   </Rules>
   <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
     <Rule Id="CA1000" Action="Warning" />
-    <Rule Id="CA1001" Action="Warning" />
     <Rule Id="CA1002" Action="Warning" />
     <Rule Id="CA1003" Action="Warning" />
     <Rule Id="CA1004" Action="Warning" />

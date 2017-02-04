@@ -12,6 +12,16 @@ namespace RoslynProofsConsole
     public class EnumerableProofs
     {
         public EnumerableProofs() { }
+        // spot the problem CA1002
+        public class AppConst
+        {
+            public List<string> SupportedLangs = new List<string>()
+            {
+                "en-US", "en-en", "es-es", "fr-FR"
+            };
+        }
+
+        // spot the problems
         public CultureInfo GetCultureInfo( HttpRequest request )
         {
             string[] languages = request.UserLanguages;
@@ -34,11 +44,10 @@ namespace RoslynProofsConsole
             return cultureInfo;
         }
 
+
         public static CultureInfo GetCultureInfoBetter(HttpRequest request)
         {
-#pragma warning disable CC0001 // You should use 'var' whenever possible.
             string[] languages = request.UserLanguages;
-#pragma warning restore CC0001 // You should use 'var' whenever possible.
 
             CultureInfo cultureInfo = CultureInfo.InstalledUICulture;
 

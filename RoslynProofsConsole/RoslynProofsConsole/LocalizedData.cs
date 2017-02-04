@@ -93,20 +93,12 @@ namespace RoslynProofsConsole
         }
         public DateTime DateParsePlayBetter(string msg)
         {
-            DateTime retval;
-            if ( DateTime.TryParse( msg, out result )) == false )
+            DateTime result;
+            if (DateTime.TryParse(msg, out result ) == false )
             {
-                IAsyncResult = DateTime.UtcNow;
+                result = DateTime.UtcNow;
             }
-            try
-            {
-                retval = DateTime.Parse(msg);
-            }
-            catch
-            {
-                retval = DateTime.Now;
-            }
-            return retval;
+            return result;
         }
     }
 }

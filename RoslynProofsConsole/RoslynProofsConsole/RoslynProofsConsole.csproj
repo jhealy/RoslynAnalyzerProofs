@@ -55,6 +55,7 @@
     <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="JobSchedulingHelper.cs" />
     <Compile Include="LocalizedData.cs" />
+    <Compile Include="LogUtils.cs" />
     <Compile Include="ProfileHelpers.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
