@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Runtime.Serialization;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RoslynProofsConsole.animals
 {
@@ -24,11 +20,11 @@ namespace RoslynProofsConsole.animals
         }
 
         // good
-        public static string SerializeBetter(object obj)
+        public  string SerializeBetter(object obj)
         {
             using (StringWriter writer = new StringWriter())
             {
-                SpecialFormatter.SerializeBetter(writer, obj);
+                new SpecialFormatter().SerializeBetter(writer, obj);
                 return writer.ToString();
             }
         }
@@ -44,7 +40,7 @@ namespace RoslynProofsConsole.animals
         public void Serialize(StringWriter writer, object obj) => 
             System.Diagnostics.Debug.WriteLine(@"nothing happening");
 
-        public static void SerializeBetter(StringWriter writer, object obj) =>
+        public void  SerializeBetter(StringWriter writer, object obj) =>
             System.Diagnostics.Debug.WriteLine(@"nothing happening");
     }
 }
