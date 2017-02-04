@@ -31,6 +31,22 @@ namespace RoslynProofsConsole
 
         }
 
+        public bool CheckStuffJustABitOff()
+        {
+            try
+            {
+                string cmd = "cmd nothing here";
+                Int32 objDataReader = -1;
+                bool okParsed = int.TryParse(this.GetParameterValue(cmd, "@Presult").ToString(), out objDataReader);
+                return (okParsed && (objDataReader != -1));
+            }
+            catch ( Exception ex )
+            {
+                throw ex;
+            }
+        }
+
+
         public bool CheckStuffBetter()
         {
             string cmd = "cmd nothing here";
