@@ -61,6 +61,7 @@ namespace RoslynProofsConsole
                 return _resources.GetEnumerator();
             }
 
+            // SPOT THE ERROR CA1063
             void IDisposable.Dispose() { return; }
         }
         [ServiceContract(Namespace = "http://www.nextgen.com/PatientPortal")]

@@ -78,6 +78,8 @@ namespace RoslynProofsConsole
             {}
         }
 
+        // spot the problem 
+        // ca1031 but bigger
         public DateTime DateParsePlay(string msg)
         {
             DateTime retval;

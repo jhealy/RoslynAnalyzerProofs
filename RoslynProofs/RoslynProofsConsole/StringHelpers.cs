@@ -46,5 +46,46 @@ namespace RoslynProofsConsole
             }
             return sb.ToString();
         }
-    }
-}
+
+        // spot the problems CA1309
+        // hint: this code was supposed to be internationalized
+        public int GetDateInfo(DateTime now)
+        {
+            int dayNumber = 0;
+            DateTime dt = now.Date;
+            string dayStr = Convert.ToString(dt.DayOfWeek);
+
+            if (dayStr.ToLower() == "sunday")
+            {
+                dayNumber = 0;
+            }
+            else if (dayStr.ToLower() == "monday")
+            {
+                dayNumber = 1;
+            }
+            else if (dayStr.ToLower() == "tuesday")
+            {
+                dayNumber = 2;
+            }
+            else if (dayStr.ToLower() == "wednesday")
+            {
+                dayNumber = 3;
+            }
+            else if (dayStr.ToLower() == "thursday")
+            {
+                dayNumber = 4;
+            }
+            else if (dayStr.ToLower() == "friday")
+            {
+                dayNumber = 5;
+            }
+            else if (dayStr.ToLower() == "saturday")
+            {
+                dayNumber = 6;
+            }
+            return dayNumber;
+        }
+
+    } // CLASS
+
+} // NAMESPACE

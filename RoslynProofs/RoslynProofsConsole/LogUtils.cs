@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace RoslynProofsConsole
 {
+    // CS0108
     public abstract class LoggerBase : EventSource, ILogger, IDisposable
     {
         public string Name
