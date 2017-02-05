@@ -10,6 +10,7 @@ namespace RoslynProofsWeb
 {
     public class JSONHelper
     {
+        // CA2202
         public static void WriteStringToOutput( string value )
         {
             using (StreamWriter streamWriter = new System.IO.StreamWriter(@"out.txt"))
