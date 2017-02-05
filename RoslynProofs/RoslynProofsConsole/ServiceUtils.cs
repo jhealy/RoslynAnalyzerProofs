@@ -8,7 +8,12 @@ namespace RoslynProofsConsole
 {
     class ServiceUtils
     {
-
+        // spot the error - CA1024 in vs2015, doesn't show up in vs2017
+        // TODO ask the experts fodder
+        protected virtual IDictionary<string, object> GetExtraValidationParameters()
+        {
+            return new Dictionary<string, object>();
+        }
     }
 
     public class JSONPSupportBehaviorAttribute2
