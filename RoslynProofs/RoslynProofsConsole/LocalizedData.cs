@@ -103,5 +103,17 @@ namespace RoslynProofsConsole
             }
             return result;
         }
+
+        // SPOT THE PROBLEM - CA1721
+        public class PlanOfCareModel
+        {
+            public string Date { get; set; }
+
+            public string Type { get; set; }
+
+            public string Action { get; set; }
+
+            public string Status { get; set; }
+        }
     }
 }

@@ -6,5 +6,6 @@
   <Rules AnalyzerId="Microsoft.Analyzers.ManagedCodeAnalysis" RuleNamespace="Microsoft.Rules.Managed">
     <Rule Id="CA1024" Action="Warning" />
     <Rule Id="CA1031" Action="Warning" />
+    <Rule Id="CA1721" Action="Warning" />
   </Rules>
 </RuleSet>
