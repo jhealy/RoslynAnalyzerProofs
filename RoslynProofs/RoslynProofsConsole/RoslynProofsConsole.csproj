@@ -54,6 +54,7 @@
     <Compile Include="animals\Bird.cs" />
     <Compile Include="animals\Feline.cs" />
     <Compile Include="DBUtils.cs" />
+    <Compile Include="Devfish.DebugHelpers.cs" />
     <Compile Include="EightBallHelper.cs" />
     <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="JobSchedulingHelper.cs" />

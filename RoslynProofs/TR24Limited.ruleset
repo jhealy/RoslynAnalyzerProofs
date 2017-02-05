@@ -53,7 +53,7 @@
     <Rule Id="CC0081" Action="Warning" />
     <Rule Id="CC0082" Action="Warning" />
     <Rule Id="CC0084" Action="Warning" />
-    <Rule Id="CC0088" Action="Warning" />
+    <Rule Id="CC0088" Action="None" />
     <Rule Id="CC0089" Action="Warning" />
     <Rule Id="CC0090" Action="Warning" />
     <Rule Id="CC0092" Action="Warning" />
