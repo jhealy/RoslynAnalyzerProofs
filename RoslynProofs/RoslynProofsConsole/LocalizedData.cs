@@ -26,6 +26,7 @@ namespace RoslynProofsConsole
         {
             string value = inputString;
             //Fix for CustomerIssue-1117
+            //CA1309
             if (string.Equals(this.Name, @"Notes", StringComparison.InvariantCultureIgnoreCase))
             {
                 value = value.Replace( "&#10;" , System.Environment.NewLine);

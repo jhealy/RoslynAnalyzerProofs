@@ -29,6 +29,7 @@ namespace RoslynProofsConsole
 
         public string LoopAppend( string a, string b, string c, string d )
         {
+            // S1643
             String s = String.Empty;
             for ( Int32 ii = 0; ii < 1000; ii++ )
             {
