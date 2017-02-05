@@ -24,7 +24,6 @@ namespace RoslynProofsConsole.animals
             DoNotProfile = 301
         }
 
-
         // trips a cc for initializers
         // also trips VS2017 IDE0017
         public static Bird CreateBird( string name, double wingSpan, Classification type )
