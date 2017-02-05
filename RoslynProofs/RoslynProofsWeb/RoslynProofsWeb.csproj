@@ -184,6 +184,7 @@
     <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="HttpUtils.cs" />
     <Compile Include="JobSchedulingHelper.cs" />
+    <Compile Include="JSONHelper.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />

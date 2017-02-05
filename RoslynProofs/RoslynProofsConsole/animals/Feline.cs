@@ -1,17 +1,13 @@
 ﻿using System;
 using System.IO;
 using System.Runtime.Serialization;
+using System.Web;
 
 namespace RoslynProofsConsole.animals
 {
     public class Feline : ISerializable
     {
-        public void GetObjectData(SerializationInfo info, StreamingContext context)
-        {
-            throw new NotImplementedException();
-        }
-
-        // bad
+        // spot the problem
         public static string Serialize(object obj)
         {
             StringWriter writer = new StringWriter();
@@ -27,6 +23,11 @@ namespace RoslynProofsConsole.animals
                 new SpecialFormatter().SerializeBetter(writer, obj);
                 return writer.ToString();
             }
+        }
+
+        public void GetObjectData(SerializationInfo info, StreamingContext context)
+        {
+            throw new NotImplementedException();
         }
     }
 
