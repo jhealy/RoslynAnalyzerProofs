@@ -9,6 +9,9 @@ namespace RoslynProofsWeb
 {
     public class HttpUtils
     {
+        // CA1056
+        public string RemoteServerUrl { get; set; }
+
         // TODO Write ROSLYN analyzer for http using issue
         public async Task<string> GetWebPageContent ( Uri uri )
         {

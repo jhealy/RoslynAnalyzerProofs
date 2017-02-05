@@ -14,9 +14,30 @@ namespace RoslynProofsConsole
             get;
             private set;
         }
+
+        // CA1062
+        public string ToValue( Dictionary<string, string> querystring, string key)
+        {
+            if (querystring.Any(m => m.Key.Equals(key)))
+            {
+                return querystring[key];
+            }
+            else
+            {
+                return string.Empty;
+            }
+        }
+
+        // CA1806
+        public Guid ToGuid(string val)
+        {
+            Guid value;
+            Guid.TryParse(val, out value);
+            return value;
+        }
     }
 
-    public interface ILogger 
+    public interface ILogger
     {
     }
 }

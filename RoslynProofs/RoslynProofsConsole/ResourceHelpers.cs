@@ -14,6 +14,9 @@ namespace RoslynProofsConsole
 {
     public class ResourceHelpers
     {
+
+        // spot the problem
+        // ca1010 - https://msdn.microsoft.com/library/ms182132.aspx
         public class DBResourceSet : ResourceSet
         {
             public DBResourceSet(CultureInfo culture) :
@@ -27,6 +30,8 @@ namespace RoslynProofsConsole
                 return typeof(CustomResourceReader);
             }
         }
+
+
 
         public sealed class CustomResourceReader : IResourceReader
         {
