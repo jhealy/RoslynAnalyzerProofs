@@ -72,8 +72,20 @@ namespace RoslynProofsWeb.Controllers
                 Logins = await UserManager.GetLoginsAsync(userId),
                 BrowserRemembered = await AuthenticationManager.TwoFactorBrowserRememberedAsync(userId)
             };
+
+            if (message.Value.ToString().ToLowerInvariant().Contains("="))
+            {
+                m_Modifier = "eq";
+            }
+            else
+                m_Modifier = "na";
+                m_SecDef = "wah";
+
             return View(model);
         }
+
+        private string m_Modifier;
+        private string m_SecDef;
 
         //
         // POST: /Manage/RemoveLogin

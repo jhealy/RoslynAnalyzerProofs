@@ -60,5 +60,37 @@ namespace RoslynProofsConsole
         {
             throw new NotImplementedException();
         }
+
+        public static string FormatEffectiveDates(string date)
+        {
+            if (!string.IsNullOrWhiteSpace(date))
+            {
+                try
+                {
+                    int index = date.LastIndexOf('-');
+                    if ((date.Length - index) < 4)
+                    {
+                        date = string.Format("{0}", ControllerUtility.ParseDate(date.Substring(0, index).Trim()));
+                    }
+                    else
+                    {
+                        int index2 = date.IndexOf(" - ");
+                        date = string.Format("{0} - {1}", ControllerUtility.ParseDate(date.Substring(0, index2)), ControllerUtility.ParseDate(date.Substring(index2 + 3)));
+                    }
+                }
+                catch (Exception)
+                {
+                }
+            }
+            return date;
+        }
+    }
+
+    internal class ControllerUtility
+    {
+        internal static object ParseDate(string v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
