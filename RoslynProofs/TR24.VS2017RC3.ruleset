@@ -7,5 +7,10 @@
     <Rule Id="CA1024" Action="Warning" />
     <Rule Id="CA1031" Action="Warning" />
     <Rule Id="CA1721" Action="Warning" />
+    <Rule Id="CA1811" Action="Warning" />
+    <Rule Id="CA1814" Action="Warning" />
+    <Rule Id="CA1816" Action="Warning" />
+    <Rule Id="CA1819" Action="Warning" />
+    <Rule Id="CA1822" Action="Warning" />
   </Rules>
 </RuleSet>
