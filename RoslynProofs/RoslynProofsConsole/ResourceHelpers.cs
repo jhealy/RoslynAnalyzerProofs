@@ -82,5 +82,6 @@ namespace RoslynProofsConsole
             [OperationContract(IsOneWay = true)]
             void Dispose();
         }
+
     }
 }

@@ -55,6 +55,7 @@
     <Compile Include="animals\Feline.cs" />
     <Compile Include="animals\People.cs" />
     <Compile Include="DataPoints.cs" />
+    <Compile Include="DBResourceSet.cs" />
     <Compile Include="DBUtils.cs" />
     <Compile Include="EightBallHelper.cs" />
     <Compile Include="GlobalSuppressions.cs" />
