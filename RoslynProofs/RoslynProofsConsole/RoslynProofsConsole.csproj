@@ -22,7 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodeAnalysisRuleSet>..\TR24.VS2017RC3.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet>..\chalktalk.ruleset</CodeAnalysisRuleSet>
     <RunCodeAnalysis>true</RunCodeAnalysis>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -59,6 +59,7 @@
     <Compile Include="DBUtils.cs" />
     <Compile Include="EightBallHelper.cs" />
     <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="GlobalSuppressions2.cs" />
     <Compile Include="JobSchedulingHelper.cs" />
     <Compile Include="LocalizedData.cs" />
     <Compile Include="LogUtils.cs" />

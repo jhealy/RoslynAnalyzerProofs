@@ -22,7 +22,6 @@ namespace RoslynProofsConsole
                 Console.WriteLine($"Eightball says {response}");
             }
 
-
             //LocalizedData d = new LocalizedData();
             //d.BatteryChargerFailure = "57";
             //d.HighSpeedAlarmMessage = "Failure at 37mbs";

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26127.3
+VisualStudioVersion = 15.0.26403.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoslynProofsConsole", "RoslynProofsConsole\RoslynProofsConsole.csproj", "{A782CCBB-1183-4B4E-9D5D-BED8D3FE0BCA}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -12,11 +12,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoslynProofsWeb", "RoslynPr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6FB848D2-D718-4475-8856-A227347AA792}"
 	ProjectSection(SolutionItems) = preProject
+		chalktalk.ruleset = chalktalk.ruleset
+		demo01ruleset.ruleset = demo01ruleset.ruleset
 		TR24.VS2017RC3.ruleset = TR24.VS2017RC3.ruleset
 		TR24Limited.ruleset = TR24Limited.ruleset
+		vbruleset.ruleset = vbruleset.ruleset
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EightBallWCF", "EightBallWCF\EightBallWCF.csproj", "{0698B247-83C3-4E0C-B8DC-9FC28D8BDA81}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "RoslynProofsConsoleVB", "RoslynProofsConsoleVB\RoslynProofsConsoleVB.vbproj", "{2DDAABAD-7B11-452C-B5CC-79E7D2D7608F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +41,10 @@ Global
 		{0698B247-83C3-4E0C-B8DC-9FC28D8BDA81}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0698B247-83C3-4E0C-B8DC-9FC28D8BDA81}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0698B247-83C3-4E0C-B8DC-9FC28D8BDA81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DDAABAD-7B11-452C-B5CC-79E7D2D7608F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DDAABAD-7B11-452C-B5CC-79E7D2D7608F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DDAABAD-7B11-452C-B5CC-79E7D2D7608F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DDAABAD-7B11-452C-B5CC-79E7D2D7608F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

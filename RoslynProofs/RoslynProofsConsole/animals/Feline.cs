@@ -1,7 +1,6 @@
 ﻿using System;
 using System.IO;
 using System.Runtime.Serialization;
-using System.Web;
 
 namespace RoslynProofsConsole.animals
 {
@@ -10,7 +9,9 @@ namespace RoslynProofsConsole.animals
         // spot the problem
         public static string Serialize(object obj)
         {
+#pragma warning disable CC0001 // You should use 'var' whenever possible.
             StringWriter writer = new StringWriter();
+#pragma warning restore CC0001 // You should use 'var' whenever possible.
             new SpecialFormatter().Serialize(writer, obj);
             return writer.ToString();
         }

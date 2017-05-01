@@ -32,8 +32,10 @@ namespace RoslynProofsConsole
                 value = value.Replace( "&#10;" , System.Environment.NewLine);
             }
             return value;
+#pragma warning disable RCS1057 // Add empty line between declarations.
         }
         public string ConvertNewLineBetter(string inputString)
+#pragma warning restore RCS1057 // Add empty line between declarations.
         {
             string value = inputString;
             //Fix for CustomerIssue-1117
