@@ -1,0 +1,112 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodeDefects", "CodeDefects\CodeDefects.vcxproj", "{6140A847-5F53-46C2-90F9-BF589C71AA2B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Annotations", "Annotations\Annotations.vcxproj", "{E0608F40-C53C-47ED-95B2-18B621364A4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoslynProofsConsole", "..\..\..\..\dev\roslyn\RoslynProofs\RoslynProofsConsole\RoslynProofsConsole.csproj", "{A782CCBB-1183-4B4E-9D5D-BED8D3FE0BCA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0698B247-83C3-4E0C-B8DC-9FC28D8BDA81} = {0698B247-83C3-4E0C-B8DC-9FC28D8BDA81}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoslynProofsWeb", "..\..\..\..\dev\roslyn\RoslynProofs\RoslynProofsWeb\RoslynProofsWeb.csproj", "{E160CFA4-A85F-4273-8959-A4C5999958E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6FB848D2-D718-4475-8856-A227347AA792}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\dev\roslyn\RoslynProofs\chalktalk.ruleset = ..\..\..\..\dev\roslyn\RoslynProofs\chalktalk.ruleset
+		..\..\..\..\dev\roslyn\RoslynProofs\demo01ruleset.ruleset = ..\..\..\..\dev\roslyn\RoslynProofs\demo01ruleset.ruleset
+		..\..\..\..\dev\roslyn\RoslynProofs\TR24.VS2017RC3.ruleset = ..\..\..\..\dev\roslyn\RoslynProofs\TR24.VS2017RC3.ruleset
+		..\..\..\..\dev\roslyn\RoslynProofs\TR24Limited.ruleset = ..\..\..\..\dev\roslyn\RoslynProofs\TR24Limited.ruleset
+		..\..\..\..\dev\roslyn\RoslynProofs\vbruleset.ruleset = ..\..\..\..\dev\roslyn\RoslynProofs\vbruleset.ruleset
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EightBallWCF", "..\..\..\..\dev\roslyn\RoslynProofs\EightBallWCF\EightBallWCF.csproj", "{0698B247-83C3-4E0C-B8DC-9FC28D8BDA81}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "RoslynProofsConsoleVB", "..\..\..\..\dev\roslyn\RoslynProofs\RoslynProofsConsoleVB\RoslynProofsConsoleVB.vbproj", "{2DDAABAD-7B11-452C-B5CC-79E7D2D7608F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6140A847-5F53-46C2-90F9-BF589C71AA2B}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{6140A847-5F53-46C2-90F9-BF589C71AA2B}.Debug|x64.ActiveCfg = Debug|x64
+		{6140A847-5F53-46C2-90F9-BF589C71AA2B}.Debug|x64.Build.0 = Debug|x64
+		{6140A847-5F53-46C2-90F9-BF589C71AA2B}.Debug|x86.ActiveCfg = Debug|Win32
+		{6140A847-5F53-46C2-90F9-BF589C71AA2B}.Debug|x86.Build.0 = Debug|Win32
+		{6140A847-5F53-46C2-90F9-BF589C71AA2B}.Release|Any CPU.ActiveCfg = Release|Win32
+		{6140A847-5F53-46C2-90F9-BF589C71AA2B}.Release|x64.ActiveCfg = Release|x64
+		{6140A847-5F53-46C2-90F9-BF589C71AA2B}.Release|x64.Build.0 = Release|x64
+		{6140A847-5F53-46C2-90F9-BF589C71AA2B}.Release|x86.ActiveCfg = Release|Win32
+		{6140A847-5F53-46C2-90F9-BF589C71AA2B}.Release|x86.Build.0 = Release|Win32
+		{E0608F40-C53C-47ED-95B2-18B621364A4B}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{E0608F40-C53C-47ED-95B2-18B621364A4B}.Debug|x64.ActiveCfg = Debug|x64
+		{E0608F40-C53C-47ED-95B2-18B621364A4B}.Debug|x64.Build.0 = Debug|x64
+		{E0608F40-C53C-47ED-95B2-18B621364A4B}.Debug|x86.ActiveCfg = Debug|Win32
+		{E0608F40-C53C-47ED-95B2-18B621364A4B}.Debug|x86.Build.0 = Debug|Win32
+		{E0608F40-C53C-47ED-95B2-18B621364A4B}.Release|Any CPU.ActiveCfg = Release|Win32
+		{E0608F40-C53C-47ED-95B2-18B621364A4B}.Release|x64.ActiveCfg = Release|x64
+		{E0608F40-C53C-47ED-95B2-18B621364A4B}.Release|x64.Build.0 = Release|x64
+		{E0608F40-C53C-47ED-95B2-18B621364A4B}.Release|x86.ActiveCfg = Release|Win32
+		{E0608F40-C53C-47ED-95B2-18B621364A4B}.Release|x86.Build.0 = Release|Win32
+		{A782CCBB-1183-4B4E-9D5D-BED8D3FE0BCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A782CCBB-1183-4B4E-9D5D-BED8D3FE0BCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A782CCBB-1183-4B4E-9D5D-BED8D3FE0BCA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A782CCBB-1183-4B4E-9D5D-BED8D3FE0BCA}.Debug|x64.Build.0 = Debug|Any CPU
+		{A782CCBB-1183-4B4E-9D5D-BED8D3FE0BCA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A782CCBB-1183-4B4E-9D5D-BED8D3FE0BCA}.Debug|x86.Build.0 = Debug|Any CPU
+		{A782CCBB-1183-4B4E-9D5D-BED8D3FE0BCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A782CCBB-1183-4B4E-9D5D-BED8D3FE0BCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A782CCBB-1183-4B4E-9D5D-BED8D3FE0BCA}.Release|x64.ActiveCfg = Release|Any CPU
+		{A782CCBB-1183-4B4E-9D5D-BED8D3FE0BCA}.Release|x64.Build.0 = Release|Any CPU
+		{A782CCBB-1183-4B4E-9D5D-BED8D3FE0BCA}.Release|x86.ActiveCfg = Release|Any CPU
+		{A782CCBB-1183-4B4E-9D5D-BED8D3FE0BCA}.Release|x86.Build.0 = Release|Any CPU
+		{E160CFA4-A85F-4273-8959-A4C5999958E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E160CFA4-A85F-4273-8959-A4C5999958E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E160CFA4-A85F-4273-8959-A4C5999958E0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E160CFA4-A85F-4273-8959-A4C5999958E0}.Debug|x64.Build.0 = Debug|Any CPU
+		{E160CFA4-A85F-4273-8959-A4C5999958E0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E160CFA4-A85F-4273-8959-A4C5999958E0}.Debug|x86.Build.0 = Debug|Any CPU
+		{E160CFA4-A85F-4273-8959-A4C5999958E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E160CFA4-A85F-4273-8959-A4C5999958E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E160CFA4-A85F-4273-8959-A4C5999958E0}.Release|x64.ActiveCfg = Release|Any CPU
+		{E160CFA4-A85F-4273-8959-A4C5999958E0}.Release|x64.Build.0 = Release|Any CPU
+		{E160CFA4-A85F-4273-8959-A4C5999958E0}.Release|x86.ActiveCfg = Release|Any CPU
+		{E160CFA4-A85F-4273-8959-A4C5999958E0}.Release|x86.Build.0 = Release|Any CPU
+		{0698B247-83C3-4E0C-B8DC-9FC28D8BDA81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0698B247-83C3-4E0C-B8DC-9FC28D8BDA81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0698B247-83C3-4E0C-B8DC-9FC28D8BDA81}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0698B247-83C3-4E0C-B8DC-9FC28D8BDA81}.Debug|x64.Build.0 = Debug|Any CPU
+		{0698B247-83C3-4E0C-B8DC-9FC28D8BDA81}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0698B247-83C3-4E0C-B8DC-9FC28D8BDA81}.Debug|x86.Build.0 = Debug|Any CPU
+		{0698B247-83C3-4E0C-B8DC-9FC28D8BDA81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0698B247-83C3-4E0C-B8DC-9FC28D8BDA81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0698B247-83C3-4E0C-B8DC-9FC28D8BDA81}.Release|x64.ActiveCfg = Release|Any CPU
+		{0698B247-83C3-4E0C-B8DC-9FC28D8BDA81}.Release|x64.Build.0 = Release|Any CPU
+		{0698B247-83C3-4E0C-B8DC-9FC28D8BDA81}.Release|x86.ActiveCfg = Release|Any CPU
+		{0698B247-83C3-4E0C-B8DC-9FC28D8BDA81}.Release|x86.Build.0 = Release|Any CPU
+		{2DDAABAD-7B11-452C-B5CC-79E7D2D7608F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DDAABAD-7B11-452C-B5CC-79E7D2D7608F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DDAABAD-7B11-452C-B5CC-79E7D2D7608F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2DDAABAD-7B11-452C-B5CC-79E7D2D7608F}.Debug|x64.Build.0 = Debug|Any CPU
+		{2DDAABAD-7B11-452C-B5CC-79E7D2D7608F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2DDAABAD-7B11-452C-B5CC-79E7D2D7608F}.Debug|x86.Build.0 = Debug|Any CPU
+		{2DDAABAD-7B11-452C-B5CC-79E7D2D7608F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DDAABAD-7B11-452C-B5CC-79E7D2D7608F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DDAABAD-7B11-452C-B5CC-79E7D2D7608F}.Release|x64.ActiveCfg = Release|Any CPU
+		{2DDAABAD-7B11-452C-B5CC-79E7D2D7608F}.Release|x64.Build.0 = Release|Any CPU
+		{2DDAABAD-7B11-452C-B5CC-79E7D2D7608F}.Release|x86.ActiveCfg = Release|Any CPU
+		{2DDAABAD-7B11-452C-B5CC-79E7D2D7608F}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
