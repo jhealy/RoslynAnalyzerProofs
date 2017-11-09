@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Features>IOperation</Features>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="file1.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="file1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MetaCompilation.Analyzers" Version="2.3.0-beta2-61905-01" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="2.3.0-beta2-62118-03" />
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.3.0-beta2-62118-03" />
+    <PackageReference Include="Microsoft.CodeQuality.Analyzers" Version="2.3.0-beta2-62118-03" />
+    <PackageReference Include="Microsoft.Net.RoslynDiagnostics" Version="2.3.0-beta2-62118-03" />
+    <PackageReference Include="Microsoft.NetCore.Analyzers" Version="2.3.0-beta2-62118-03" />
+    <PackageReference Include="Roslyn.Diagnostics.Analyzers" Version="2.3.0-beta2-62118-03" />
+    <PackageReference Include="Text.Analyzers" Version="2.3.0-beta2-62118-03" />
+  </ItemGroup>
+
+</Project>

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.3
+VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoslynProofsConsole", "RoslynProofsConsole\RoslynProofsConsole.csproj", "{A782CCBB-1183-4B4E-9D5D-BED8D3FE0BCA}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -22,6 +22,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EightBallWCF", "EightBallWCF\EightBallWCF.csproj", "{0698B247-83C3-4E0C-B8DC-9FC28D8BDA81}"
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "RoslynProofsConsoleVB", "RoslynProofsConsoleVB\RoslynProofsConsoleVB.vbproj", "{2DDAABAD-7B11-452C-B5CC-79E7D2D7608F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoslynProofsCore", "RoslynProofsCore\RoslynProofsCore.csproj", "{26BF441A-9701-4B1C-839D-FC9B428986E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,8 +47,15 @@ Global
 		{2DDAABAD-7B11-452C-B5CC-79E7D2D7608F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DDAABAD-7B11-452C-B5CC-79E7D2D7608F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DDAABAD-7B11-452C-B5CC-79E7D2D7608F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26BF441A-9701-4B1C-839D-FC9B428986E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26BF441A-9701-4B1C-839D-FC9B428986E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26BF441A-9701-4B1C-839D-FC9B428986E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26BF441A-9701-4B1C-839D-FC9B428986E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C519639-8B30-496E-AC8C-96CA9354AC6A}
 	EndGlobalSection
 EndGlobal
