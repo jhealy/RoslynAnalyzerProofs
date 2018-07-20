@@ -11,7 +11,7 @@ namespace RoslynProofsCore
             Console.WriteLine("Comments, questions, additions please send to josephehealy at hotmail.com.");
             Console.WriteLine("Enjoy!  Carpe diem.....");
 
-            DisposeErrorTimer.DoWork(1000, "ticky");
+            //DisposeErrorTimer.DoWork(1000, "ticky");
 
             Console.ReadLine();
         }

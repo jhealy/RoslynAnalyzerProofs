@@ -17,14 +17,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="MetaCompilation.Analyzers" Version="2.3.0-beta2-61905-01" />
-    <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="2.3.0-beta2-62118-03" />
-    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.3.0-beta2-62118-03" />
-    <PackageReference Include="Microsoft.CodeQuality.Analyzers" Version="2.3.0-beta2-62118-03" />
-    <PackageReference Include="Microsoft.Net.RoslynDiagnostics" Version="2.3.0-beta2-62118-03" />
-    <PackageReference Include="Microsoft.NetCore.Analyzers" Version="2.3.0-beta2-62118-03" />
-    <PackageReference Include="Roslyn.Diagnostics.Analyzers" Version="2.3.0-beta2-62118-03" />
-    <PackageReference Include="Text.Analyzers" Version="2.3.0-beta2-62118-03" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Analyzers" Version="2.6.1" />
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.6.1" />
+    <PackageReference Include="Microsoft.CodeQuality.Analyzers" Version="2.6.1" />
+    <PackageReference Include="Microsoft.Net.RoslynDiagnostics" Version="2.6.1" />
+    <PackageReference Include="Microsoft.NetCore.Analyzers" Version="2.6.1" />
+    <PackageReference Include="Roslyn.Diagnostics.Analyzers" Version="2.6.1" />
+    <PackageReference Include="Text.Analyzers" Version="2.6.1" />
   </ItemGroup>
 
 </Project>
