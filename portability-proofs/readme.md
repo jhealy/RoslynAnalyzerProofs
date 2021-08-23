@@ -11,7 +11,7 @@ Other projects can be created using various commmands.  Example are below.
 
 .NETCORE 2.1 MVC :  
 
-` dotnet new mvc -framework netcoreapp2.1`
+` dotnet new mvc --framework netcoreapp2.1`
 
 For more see:
 
@@ -22,7 +22,7 @@ For more see:
 
 * Create new .NET Core 2.1 project
 
-` dotnet new mvc -framework netcoreapp2.1`
+` dotnet new mvc --framework netcoreapp2.1`
 
 * Compile and run to test.
 * Use portability analyzer to check compat with 5.0. It should be 100%.
